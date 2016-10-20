@@ -4,7 +4,19 @@
  -->
 <div class="oj-hybrid-padding">
   <h3>Dashboard Content Area</h3>
-  <div>
-      To change the content of this section, you will make edits to the dashboard.html file located in the /js/views folder.
+  <div>    
+    <p>First number <input id="inputnumber-id"
+        data-bind="ojComponent: {component: 'ojInputText', 
+          value:firstNumber}"/>
+          </input>
+    </p>
+  
+    <p>Second number <input id="inputnumber-id"
+      data-bind="ojComponent: {component: 'ojInputText', 
+          value:secondNumber}"/>
+          </input>
+        </p>
+  
+    <p>Answer  <span data-bind="text: answer"></span> </p>
   </div>
 </div>
